@@ -1,8 +1,27 @@
 aid: send4-tecnologia
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/send4-tecnologia.png
 name: Send4 Tecnologia
-description: Send4 Tecnologia is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Send4 Tecnologia (rebranded as After Sale) is a Brazilian post-purchase
+  platform for e-commerce, automating product exchanges, returns, and reverse logistics.
+  Founded in 2017, it has processed over 6 million reverse-logistics transactions and
+  offers intelligent authorization rules for approvals and blocks, a self-service customer
+  exchange portal, real-time returns dashboards, revenue-retention offers (vouchers
+  and cashback), integrated shipping labels and tracking, automated refunds and store
+  credit, and multi-channel WhatsApp and email support. It advertises a simple, flexible
+  API to connect with any e-commerce platform in minutes, though no public developer
+  documentation is currently published. After Sale is now part of the Confi ecosystem
+  alongside Neotrust and the Confi consumer app.'
 url: https://raw.githubusercontent.com/api-evangelist/send4-tecnologia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,17 +29,35 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-rebrand: 'send4.com.br now redirects to after.sale (brand: After Sale), part of the
+  Confi ecosystem at confi.com.vc/aftersale'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- E-commerce
+- Reverse Logistics
+- Returns
+- Post-Sale
+- Customer Experience
+- Retail
+- Brazil
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/send4-tecnologia-domain-security.yml
 - type: Website
-  url: https://send4.com.br
+  url: https://after.sale
+- type: PrivacyPolicy
+  url: https://confi.com.vc/politica-de-privacidade
