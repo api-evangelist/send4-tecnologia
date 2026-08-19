@@ -31,7 +31,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-rebrand: 'send4.com.br now redirects to after.sale (brand: After Sale), part of the
   Confi ecosystem at confi.com.vc/aftersale'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
