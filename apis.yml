@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://after.sale', status: 301, note: 'declared website redirects to https://confi.com.vc/aftersale — a different registrable domain (after.sale -> com.vc), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/send4-tecnologia.png
 name: Send4 Tecnologia
 description: 'Send4 Tecnologia (rebranded as After Sale) is a Brazilian post-purchase
