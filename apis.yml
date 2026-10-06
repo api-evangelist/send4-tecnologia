@@ -46,7 +46,7 @@ x-rebrand: 'send4.com.br now redirects to after.sale (brand: After Sale), part o
   Confi ecosystem at confi.com.vc/aftersale'
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - E-Commerce
@@ -77,6 +77,8 @@ x-enrichment:
   artifacts_added: 1
   pass: local-v1
 common:
+- url: https://confi.com.vc/aftersale/blog
+  type: Blog
 - type: DomainSecurity
   url: security/send4-tecnologia-domain-security.yml
 - type: Website
