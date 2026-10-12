@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/send4-tecnologia/integrations
+- https://n8n.io/integrations/send4-tecnologia/
+- https://composio.dev/toolkits/send4-tecnologia
+- https://monid.ai/tools/send4-tecnologia
+checked:
+- https://composio.dev/toolkits/send4-tecnologia
+- https://monid.ai/tools/send4-tecnologia
+- https://n8n.io/integrations/send4-tecnologia/
+- https://zapier.com/apps/send4-tecnologia/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
